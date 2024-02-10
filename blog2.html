@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog 2</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/blog2.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/cdnjs.cloudflare.com_ajax_libs_animate.css_4.1.1_animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+</head>
+<body>
+
+    <script src="js/code.jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+
+
+    <!-- navbar -->
+
+    <div class="container-fluid p-0">
+        <nav class="nav-p navbar navbar-expand-lg navbar-light nav-bg">
+            <div class="container">
+                <img src="img/logo.png" alt="">
+                <div class="collapse navbar-collapse">
+                    <ul class="justify-content-center navbar-nav me-auto ms-auto d-flex">
+                        <div class="d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="blog1.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex">
+                    <div class="icon-bg">
+                        <i class="fa-solid fa-magnifying-glass fa-rotate-90"></i>
+                    </div>
+                    <div class="icon-bg">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="icon-bg">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+                <!-- hider navbar -->
+                <div class="my-tog-btn" id="text">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="side-menu side-menu-active" id="hide">
+                    <div id="text1">
+                        <i class="fa-solid fa-xmark i-con"></i>
+                    </div>
+                    <div class="inner">
+                        <div class="s-logo">
+                            <a href=""><img src="img/logo.png" alt=""></a>
+                        </div>
+                        <div class="s-nav">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="blog1.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    </nav>
+    
+    <script>
+
+        $(document).ready(function () {
+            var i = 0;
+            $("#text").click(function () {
+                if (i % 2 == 1) {
+                    $(".side-menu").hide(300)
+                }
+                else {
+                    $(".side-menu").show(300)
+                }
+            });
+
+        });
+
+
+        $(document).ready(function () {
+            var a = 1;
+            $("#text1").click(function () {
+                if (a % 2 == 1) {
+                    $(".side-menu").hide(300)
+                }
+                else {
+                    $(".side-menu").show(300)
+                }
+                // i++;
+            });
+
+        });
+
+    </script>
+
+    <!-- about img-fix 1 -->
+
+    <div class="container-fluid header-about-img">
+        <div class="overlay"></div>
+    </div>
+
+
+    <!-- main blog 2 -->
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row row-pdg">
+                <div class="col-8 col-pdg">
+                    <div class="text_minimal1 pt-0">
+                        <p class="sub-heading text-black">Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.Ut lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis
+                        </p>
+                        <p class="sub-heading pt-2 text-black">Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.Ut lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis. Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.Ut bibendum suscipit.
+                        </p>
+    
+                        <h1 class="blog_detail-heading">Elegent Jewelry</h1>
+                        <p class="text_dummy">Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.Ut lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis
+                        </p>
+                        <p class="sub-heading pt-2 text-black">Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.Ut lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis. Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.Ut bibendum suscipit.
+                        </p>
+                        <ul class="ps-2 pt-3 text-black ul-icon">
+                            <li>
+                                <i class="fa-solid fa-circle"></i>
+                                Nam ut rutrum ex.
+                            </li>
+                            <li class="mt-1">
+                                <i class="fa-solid fa-circle"></i>
+                                Aliquam erat volutpat.
+                            </li>
+                            <li class="mt-1">
+                                <i class="fa-solid fa-circle"></i>
+                                Quisque vitae nibh iaculis.
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <img class="img_blog2" src="img/blog22.jpg">
+
+                    <p class="sub-heading pt-3 text-black">Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.Ut lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis                       
+                    </p>
+                    <p class="sub-heading pt-2 text-black">Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.Ut lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis. Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.Ut bibendum suscipit.                       
+                    </p>
+                    <div class="quote_text">
+                        <p class="quote green-color">Design Is What You Do When You Want To<br> Express YourSelf</p>
+                        <div class="verticle_lineQ green-color"></div>
+                    </div>
+                    <p class="sub-heading pt-3 text-black">Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.Ut lacus vestibulum maximus suscipit.
+                    </p>
+    
+                    <div class="blogN_images mt-4 mb-3">
+                        <div class="row">
+                            <div class="col-6 pe-1">
+                                <img src="img/bd1.jpg">
+                            </div>
+                            <div class="col-6 ps-1">
+                                <img src="img/bd2.jpg">
+                            </div>
+                            <div class="col-12 pt-2"> 
+                                <img src="img/bd3.jpg">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <p class="sub-heading pt-3 text-black">Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.
+                        Ut lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis</p>
+                    <p class="sub-heading pt-2 text-black">Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.
+                        Ut lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis. Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.
+                        Ut bibendum suscipit.</p>
+                    <div class="divider1 mt-5"></div>
+    
+                    <div class="written">
+                        <div class="written_outerbox mt-5 display">
+                            <img class="written_img" src="img/c1.jpg" alt="">
+                            <div class="written_text">
+                                <p class="date">Written By</p>
+                                <h1 class="main_written text-black">Kim Janes</h1>
+                                <p class="sub-heading mt-0 text-black">Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.<br> Integer eu ipsum sem.Ut lacus vestibulum maximus suscipit.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="comment">
+                        <div class="comment_write">
+                            <div class="icon_comment">
+                                <i class="far fa-user user_icon"></i>
+    
+                                <div class="icon_text">
+                                    <h1 class="font text-black">Mark Edison</h1>
+                                    <p class="date">20 days ago</p>
+                                </div>
+                            </div>
+                            <p class="sub-heading mt-1 text-black">Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.
+                                Ut lacus vestibulum maximus suscipit.</p>
+                        </div>
+    
+                        <h1 class="comment_text">Write a Comment</h1>
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="Name" required="" id="Name" name="Name">
+                                    </div>
+                                </div>
+    
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input class="form-control" type="email" placeholder="Email" required="" id="email" name="email">
+                                    </div>
+                                </div>
+    
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="5" placeholder="Comment"></textarea>
+                                    </div>
+                                    <button type="button" class="btn trans-btn w-100" >SUBMIT NOW</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-4 col-pdg">
+                    <div class="search_outerbox">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-search" type="button"><i class="fa fa-search fa-fw"></i></button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="topic_outerbox mt-4">
+                        <h2>Topics</h2>
+                        <div class="inner-box">
+                            <ul>
+                                <li><a href="#">Ring</a> <span class="dots">...............</span>4</li>
+                                <li><a href="#">Diamond</a> <span class="dots">............</span>5</li>
+                                <li><a href="#">Gold </a><span class="dots">...............</span>3</li>
+                                <li><a href="#">Jewelry</a><span class="dots">.............</span> 8</li>
+                                <li><a href="#">Bridal</a> <span class="dots">..............</span>6</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="outer_popular mt-4">
+                        <h2>Popular Post</h2>
+                        <div class="outer mt-4 display">
+                            <div class="popular_image">
+                                <a href="blog2.html">
+                                    <img src="img/p1.jpg">
+                                </a>
+                            </div>
+                            <div class="text_post">
+                                <p class="main"> Minimal Post...</p>
+                                <p class="date">August 13, 2019 by</p>
+                                <span>Mark Edison</span>
+                            </div>
+                        </div>
+                        <div class="outer pt-lg-3 display">
+                            <div class="popular_image">
+                                <a href="blog2.html">
+                                    <img src="img/p2.jpg" alt="audio image">
+                                </a>
+                            </div>
+                            <div class="text_post">
+                                <p class="main"> Standard Post....</p>
+                                <p class="date">October 22, 2019 by</p>
+                                <span>Mark Edison</span>
+                            </div>
+                        </div>
+                        <div class="outer pt-lg-3 display">
+                            <div class="popular_image">
+                                <a href="blog2.html">
+                                    <img src="img/p3.jpg" alt="standard image">
+                                </a>
+                            </div>
+                            <div class="text_post">
+                                <p class="main">Standard Post...</p>
+                                <p class="date">October 30, 2019 by</p>
+                                <span>Mark Edison</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="outer_tag mt-4">
+                        <h2 class="main_tag">Tags</h2>
+                        <div class="inner_tag">
+                            <div class="tag_text">
+                                <span><a href="">JEWELRY</a></span>
+                                <span><a href="">BRIDAL</a></span>
+                                <span><a href="">GOLD</a></span>
+                                <span><a href="">DIAMOND</a></span>
+                                <span><a href="">RING</a></span>
+                                <span><a href="">BRACELET</a></span>
+                                <span><a href="">NECKLACE</a></span>
+                                <span><a href="">EARRINGS</a></span>
+                                <span><a href="">PEARL</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topic_outerbox mt-4">
+                        <h2>Archives</h2>
+                        <div class="inner-box1">
+                            <ul>
+                                <li><a href="#">May 2016</a><span class="dots">............</span>1
+                                </li>
+                                <li><a href="#">July 2015</a> <span class="dots">............</span>3
+                                </li>
+                                <li><a href="#">Dec 2017</a> <span class="dots">............</span>1
+                                </li>
+                                <li><a href="#">Oct 2019</a> <span class="dots">............</span>6
+                                </li>
+                                <li><a href="#">Sep 2018</a> <span class="dots">............</span>8
+                                </li>
+                                <li><a href="#">Feb 2020</a> <span class="dots">............</span>1
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img class="sale_img" src="img/ad.jpg" alt="advertisment image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- footer -->
+
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <ul class="footer-ul d-flex justify-content-center">
+                        <li><a href="" class="icon-hover"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="far fa-envelope"></i></a></li>
+                    </ul>
+                    <p class="info footer-text">
+                        <i class="fa-regular fa-copyright"></i>
+                        2020 MegaOne. Made with love by themesindustry
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+</body>
+</html>

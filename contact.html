@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/cdnjs.cloudflare.com_ajax_libs_animate.css_4.1.1_animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+</head>
+
+<body>
+
+    <script src="js/code.jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+
+
+    <!-- navbar -->
+
+    <div class="container-fluid p-0">
+        <nav class="nav-p navbar navbar-expand-lg navbar-light nav-bg">
+            <div class="container">
+                <img src="img/logo.png" alt="">
+                <div class="collapse navbar-collapse">
+                    <ul class="justify-content-center navbar-nav me-auto ms-auto d-flex">
+                        <div class="d-flex">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="shop.html">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="blog1.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="d-flex">
+                    <div class="icon-bg">
+                        <i class="fa-solid fa-magnifying-glass fa-rotate-90"></i>
+                    </div>
+                    <div class="icon-bg">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="icon-bg">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+                <!-- hider navbar -->
+                <div class="my-tog-btn" id="text">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="side-menu side-menu-active" id="hide">
+                    <div id="text1">
+                        <i class="fa-solid fa-xmark i-con"></i>
+                    </div>
+                    <div class="inner">
+                        <div class="s-logo">
+                            <a href=""><img src="img/logo.png" alt=""></a>
+                        </div>
+                        <div class="s-nav">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="blog1.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+
+    <script>
+
+        $(document).ready(function () {
+            var i = 0;
+            $("#text").click(function () {
+                if (i % 2 == 1) {
+                    $(".side-menu").hide(300)
+                }
+                else {
+                    $(".side-menu").show(300)
+                }
+            });
+
+        });
+
+
+        $(document).ready(function () {
+            var a = 1;
+            $("#text1").click(function () {
+                if (a % 2 == 1) {
+                    $(".side-menu").hide(300)
+                }
+                else {
+                    $(".side-menu").show(300)
+                }
+                // i++;
+            });
+
+        });
+
+    </script>
+
+
+    <!-- about img-fix 1 -->
+
+    <div class="container-fluid header-about-img">
+        <div class="overlay"></div>
+    </div>
+
+
+    <!-- contact form -->
+
+    <div class="container-fluid contact-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 contact-description">
+                    <div class="contact-detail">
+                        <div class="ex-detail">
+                            <h2 class="heading text-black">Get In Touch</h2>
+                        </div>
+                        <p class="sub-heading">
+                            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard.
+                        </p>
+                        <div class="row">
+                            <div class="col-6 country-1">
+                                <h4>United States</h4>
+                                <ul class="p-0">
+                                    <li>
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <a href="#">+(34) 609 33 17 54</a>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-envelope"></i>
+                                        <a href="#">email@website.com</a>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-map-marker"></i>
+                                        <a href="#">201 Oak Street 27 Manchester,<br> USA</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 country-1">
+                                <h4>Australia</h4>
+                                <ul class="p-0">
+                                    <li>
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <a href="#">+(34) 609 33 17 54</a>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-envelope"></i>
+                                        <a href="#">email@website.com</a>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-map-marker"></i>
+                                        <a href="#">201 Oak Street 27 Manchester,<br> USA</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 contact-box text-left">
+                    <div class="c-box">
+                        <h4 class="small-heading">Leave Message</h4>
+                        <form class="contact-form">
+                            <div class="row my-form">
+                                
+                                    <div class="col-6 col-pdg1">
+                                        <input type="text" class="form-control" id="candidate_fname" name="firstName"
+                                            placeholder="First Name" required="required">
+                                    </div>
+                                    <div class="col-6 col-pdg2">
+                                        <input type="text" class="form-control" id="candidate_lname" name="lastName"
+                                            placeholder="Last Name" required="required">
+                                    </div>
+                               
+                                    <div class="col-6 col-pdg1">
+                                        <input type="email" class="form-control" id="user_email" name="userEmail"
+                                            placeholder="Email" required="required">
+                                    </div>
+                                    <div class="col-6 col-pdg2">
+                                        <input type="text" class="form-control" id="user_subject" name="userSubject"
+                                            placeholder="Subject" required="required">
+                                    </div>
+                            
+                                <div class="col-12">
+                                    <label for="user_message"></label><textarea class="form-control" id="user_message"
+                                        name="userMessage" placeholder="Message" rows="7"
+                                        required="required"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn trans-btn mt-4" type="button">SUBMIT</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- map -->
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106716.73627151367!2d-111.84636341584441!3d33.29533115156863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872ba90de045ae43%3A0x6453ae977fd9ef7e!2sGilbert%2C%20AZ%2C%20USA!5e0!3m2!1sen!2sin!4v1705061332228!5m2!1sen!2sin"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    <!-- footer -->
+
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <ul class="footer-ul d-flex justify-content-center">
+                        <li><a href="" class="icon-hover"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="far fa-envelope"></i></a></li>
+                    </ul>
+                    <p class="info footer-text">
+                        <i class="fa-regular fa-copyright"></i>
+                        2020 MegaOne. Made with love by themesindustry
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

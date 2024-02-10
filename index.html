@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/cdnjs.cloudflare.com_ajax_libs_animate.css_4.1.1_animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+</head>
+
+<body>
+
+    <script src="js/code.jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- navbar -->
+
+    <nav class="nav-p navbar navbar-expand-lg navbar-light">
+        <div class="p-0 container">
+            <img src="img/logo.png" alt="">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="justify-content-center navbar-nav me-auto ms-auto">
+                    <div class="d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="blog1.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </div>
+                </ul>
+                <div class="d-flex">
+                    <div class="icon-bg">
+                        <i class="fa-solid fa-magnifying-glass fa-rotate-90"></i>
+                    </div>
+                    <div class="icon-bg">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="icon-bg">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+
+                <!-- hider navbar -->
+                <div class="my-tog-btn" id="text">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="side-menu side-menu-active" id="hide">
+                    <div id="text1">
+                        <i class="fa-solid fa-xmark i-con"></i>
+                    </div>
+                    <div class="inner">
+                        <div class="s-logo">
+                            <a href=""><img src="img/logo.png" alt=""></a>
+                        </div>
+                        <div class="s-nav">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="blog1.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <script>
+
+        $(document).ready(function () {
+            var i = 0;
+            $("#text").click(function () {
+                if (i % 2 == 1) {
+                    $(".side-menu").hide(300)
+                }
+                else {
+                    $(".side-menu").show(300)
+                }
+            });
+
+        });
+
+
+        $(document).ready(function () {
+            var a = 1;
+            $("#text1").click(function () {
+                if (a % 2 == 1) {
+                    $(".side-menu").hide(300)
+                }
+                else {
+                    $(".side-menu").show(300)
+                }
+                // i++;
+            });
+
+        });
+
+    </script>
+
+
+    <!-- nevbar and slider -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-0">
+                <div class="bg-img">
+                    <div class="container">
+                        <div class="slider-text">
+                            <h5 class="heading mb-3 text-black">Simple &amp; Elegant</h5>
+                            <h1 class="main-heading mb-3 text-black">Luxury<br> Collection</h1>
+                            <button type="button" class="btn black-btn btn-outline-dark">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- card 1 -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 p-0 demo1">
+                <div class="box1">
+                    <div class="img1"></div>
+                </div>
+            </div>
+            <div class="col-md-6 p-0 demo">
+                <div class="box2">
+                    <div class="img2 tx-a">
+                        <div class="card-text">
+                            <h5 class="heading mb-3 text-black">Simple &amp; Elegant</h5>
+                            <h1 class="main-heading mb-3 text-black">Bridal<br>Collection</h1>
+                            <button type="button" class="btn black-btn btn-outline-dark">
+                                <a href="shop.html">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- card 2 -->
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-6 col-12 p-0">
+                <div class="box4">
+                    <div class="img4 tx-a">
+                        <div class="card-text2">
+                            <h5 class="heading mb-3 text-black">Simple &amp; Elegant</h5>
+                            <h1 class="main-heading mb-3 text-black">Gold<br>Collection</h1>
+                            <button type="button" class="btn black-btn btn-outline-dark"><a href="shop.html">Read
+                                    More</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-12 p-0">
+                <div class="box3">
+                    <div class="img3"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- card 3 -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-12 p-0 demo1">
+                <div class="box5">
+                    <div class="img5"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 p-0 demo">
+                <div class="box6">
+                    <div class="img6 tx-a">
+                        <div class="card-text3">
+                            <h5 class="heading mb-3 text-black">Simple &amp; Elegant</h5>
+                            <h1 class="main-heading mb-3 text-black">Diamond<br>Collection</h1>
+                            <button type="button" class="btn black-btn btn-outline-dark">
+                                <a href="shop.html">Read More</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+    <!-- center tx...  -->
+
+    <div class="center-tx container section-title aos-init aos-animate text-center" data-aos="fade-up">
+        <h5>Simple &amp; Elegant</h5>
+        <h1>Our Products</h1>
+    </div>
+
+
+    <!-- slider 1...  -->
+
+
+    <div class="container-fluid p-0">
+        <div class="all-tab">
+            <h1 id="tab1" onClick="demo(1);">Top Sellers</h1>
+            <h1 id="tab2" onClick="demo(2);">Sale</h1>
+            <h1 id="tab3" onClick="demo(3);">Top Rated</h1>
+            <h1 id="tab4" onClick="demo(4);">Featured</h1>
+        </div>
+
+        <div class="cont">
+            <div id="tab1Content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="c-pic">
+                                <img src="img/s1.jpg" data-aos="zoom-in-up" width="100%" alt="">
+                                <div class="on"></div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-m-top">
+                            <div class="c-pic">
+                                <img src="img/s2.jpg" data-aos="zoom-in-up" width="100%" alt="">
+                                <div class="on"></div>
+                            </div>
+                        </div>
+                        <div class="col-3 mrg-top-crd3 mrg-top-crd4">
+                            <div class="c-pic">
+                                <img src="img/s3.jpg" data-aos="zoom-in-up" width="100%" alt="">
+                                <div class="on"></div>
+                            </div>
+                        </div>
+                        <div class="col-3 mrg-top-crd4">
+                            <div class="c-pic">
+                                <img src="img/s4.jpg" data-aos="zoom-in-up" width="100%" alt="">
+                                <div class="on"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="tab2Content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="c-pic">
+                                <img src="img/s5.jpg" data-aos="zoom-in-up" width="100%" alt="">
+                                <div class="on"></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="c-pic">
+                                <img src="img/s6.jpg" data-aos="zoom-in-up" width="100%" alt="">
+                                <div class="on"></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="c-pic">
+                                <img src="img/s7.jpg" data-aos="zoom-in-up" width="100%" alt="">
+                                <div class="on"></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div id="tab3Content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="c-pic">
+                                <img src="img/s8.jpg" data-aos="zoom-in-up" width="100%" alt="">
+                                <div class="on"></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="c-pic">
+                                <img src="img/s9.jpg" data-aos="zoom-in-up" width="100%" alt="">
+                                <div class="on"></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="c-pic">
+                                <img src="img/s10.jpg" data-aos="zoom-in-up" width="100%" alt="">
+                                <div class="on"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tab4Content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="c-pic">
+                                <img src="img/s11.jpg" data-aos="zoom-in-up" width="100%" alt="">
+                                <div class="on"></div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="c-pic">
+                                <img src="img/s12.jpg" data-aos="zoom-in-up" width="100%" alt="">
+                                <div class="on"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function demo(tabIndex) {
+
+            document.getElementById("tab1Content").style.display = "none";
+            document.getElementById("tab2Content").style.display = "none";
+            document.getElementById("tab3Content").style.display = "none";
+            document.getElementById("tab4Content").style.display = "none";
+
+            document.getElementById("tab" + tabIndex + "Content").style.display = "block";
+        }
+    </script>
+
+    <script>
+        AOS.init();
+    </script>
+
+
+    <!-- bg-fix-img...  -->
+
+    <div class="bg-fix-img">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8"></div>
+                    <div class="col-4 align-center">
+                        <div class="bg-fix-tx text-md-right">
+                            <h5 class="heading">Simple &amp; Elegant</h5>
+                            <h1 class="main-heading">Upto 25%<br>Discount</h1>
+                            <button type="button" class="btn black-btn btn-outline-dark">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- center tx...  -->
+
+    <div class="center-tx container section-title aos-init aos-animate text-center" data-aos="fade-up">
+        <h5>Simple &amp; Elegant</h5>
+        <h1>Our Blogs</h1>
+    </div>
+
+
+
+    <!-- slider 2....  -->
+
+    <div class="container-fluid p-0">
+        <div class="container blog-padding">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="slider-box">
+                        <img src="img/slider 1.jpg" alt="">
+                    </div>
+                    <div class="slider-tx text-center">
+                        <div class="date d-flex justify-content-center">
+                            <pre>20 March 2020   by John</pre>
+                        </div>
+                        <div class="slider-heading">
+                            <h4>Engagement Ring: Custom</h4>
+                        </div>
+                        <button type="button" class="btn black-btn btn-outline-dark"><a href="blog1.html">Read
+                                More</a></button>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="slider-box">
+                        <img src="img/slider 2.jpg" alt="">
+                    </div>
+                    <div class="slider-tx text-center">
+                        <div class="date d-flex justify-content-center">
+                            <pre>20 March 2020   by John</pre>
+                        </div>
+                        <div class="slider-heading">
+                            <h4>Wedding Jewelry: For Bride</h4>
+                        </div>
+                        <button type="button" class="btn black-btn btn-outline-dark"><a href="blog1.html">Read
+                                More</a></button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-box">
+                        <img src="img/slider 3.jpg" alt="">
+                    </div>
+                    <div class="slider-tx text-center">
+                        <div class="date d-flex justify-content-center">
+                            <pre>20 March 2020   by John</pre>
+                        </div>
+                        <div class="slider-heading">
+                            <h4>Stunning Collection: For All</h4>
+                        </div>
+                        <button type="button" class="btn black-btn btn-outline-dark"><a href="blog1.html">Read
+                                More</a></button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-box">
+                        <img src="img/slider 4.jpg" alt="">
+                    </div>
+                    <div class="slider-tx text-center">
+                        <div class="date d-flex justify-content-center">
+                            <pre>20 March 2020   by John</pre>
+                        </div>
+                        <div class="slider-heading">
+                            <h4>Midi Rings: A Must-Have</h4>
+                        </div>
+                        <button type="button" class="btn black-btn btn-outline-dark"><a href="blog1.html">Read
+                                More</a></button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="slider-box">
+                        <img src="img/slider 1.jpg" alt="">
+                    </div>
+                    <div class="slider-tx text-center">
+                        <div class="date d-flex justify-content-center">
+                            <pre>20 March 2020   by John</pre>
+                        </div>
+                        <div class="slider-heading">
+                            <h4>Engagement Ring: Custom</h4>
+                        </div>
+                        <button type="button" class="btn black-btn btn-outline-dark"><a href="blog1.html">Read
+                                More</a></button>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="slider-box">
+                        <img src="img/slider 2.jpg" alt="">
+                    </div>
+                    <div class="slider-tx text-center">
+                        <div class="date d-flex justify-content-center">
+                            <pre>20 March 2020   by John</pre>
+                        </div>
+                        <div class="slider-heading">
+                            <h4>Wedding Jewelry: For Bride</h4>
+                        </div>
+                        <button type="button" class="btn black-btn btn-outline-dark"><a href="blog1.html">Read
+                                More</a></button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-box">
+                        <img src="img/slider 3.jpg" alt="">
+                    </div>
+                    <div class="slider-tx text-center">
+                        <div class="date d-flex justify-content-center">
+                            <pre>20 March 2020   by John</pre>
+                        </div>
+                        <div class="slider-heading">
+                            <h4>Stunning Collection: For All</h4>
+                        </div>
+                        <button type="button" class="btn black-btn btn-outline-dark"><a href="blog1.html">Read
+                                More</a></button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-box">
+                        <img src="img/slider 4.jpg" alt="">
+                    </div>
+                    <div class="slider-tx text-center">
+                        <div class="date d-flex justify-content-center">
+                            <pre>20 March 2020   by John</pre>
+                        </div>
+                        <div class="slider-heading">
+                            <h4>Midi Rings: A Must-Have</h4>
+                        </div>
+                        <button type="button" class="btn black-btn btn-outline-dark"><a href="blog1.html">Read
+                                More</a></button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="slider-box">
+                        <img src="img/slider 1.jpg" alt="">
+                    </div>
+                    <div class="slider-tx text-center">
+                        <div class="date d-flex justify-content-center">
+                            <pre>20 March 2020   by John</pre>
+                        </div>
+                        <div class="slider-heading">
+                            <h4>Engagement Ring: Custom</h4>
+                        </div>
+                        <button type="button" class="btn black-btn btn-outline-dark"><a href="blog1.html">Read
+                                More</a></button>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="slider-box">
+                        <img src="img/slider 2.jpg" alt="">
+                    </div>
+                    <div class="slider-tx text-center">
+                        <div class="date d-flex justify-content-center">
+                            <pre>20 March 2020   by John</pre>
+                        </div>
+                        <div class="slider-heading">
+                            <h4>Wedding Jewelry: For Bride</h4>
+                        </div>
+                        <button type="button" class="btn black-btn btn-outline-dark"><a href="blog1.html">Read
+                                More</a></button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-box">
+                        <img src="img/slider 3.jpg" alt="">
+                    </div>
+                    <div class="slider-tx text-center">
+                        <div class="date d-flex justify-content-center">
+                            <pre>20 March 2020   by John</pre>
+                        </div>
+                        <div class="slider-heading">
+                            <h4>Stunning Collection: For All</h4>
+                        </div>
+                        <button type="button" class="btn black-btn btn-outline-dark"><a href="blog1.html">Read
+                                More</a></button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider-box">
+                        <img src="img/slider 4.jpg" alt="">
+                    </div>
+                    <div class="slider-tx text-center">
+                        <div class="date d-flex justify-content-center">
+                            <pre>20 March 2020   by John</pre>
+                        </div>
+                        <div class="slider-heading">
+                            <h4>Midi Rings: A Must-Have</h4>
+                        </div>
+                        <button type="button" class="btn black-btn btn-outline-dark"><a href="blog1.html">Read
+                                More</a></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                1200: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+
+
+
+
+    <!-- footer -->
+
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <ul class="footer-ul d-flex justify-content-center">
+                        <li><a href="" class="icon-hover"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="" class="icon-hover"><i class="far fa-envelope"></i></a></li>
+                    </ul>
+                    <p class="info footer-text">
+                        <i class="fa-regular fa-copyright"></i>
+                        2020 MegaOne. Made with love by themesindustry
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
